@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "lerna": "^8.1.2"
+  },
+  "scripts": {
+    "start:react": "lerna exec --scope @design-system/ds-components -- yarn start"
+  }
+}
