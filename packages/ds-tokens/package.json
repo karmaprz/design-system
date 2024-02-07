@@ -1,0 +1,14 @@
+{
+  "name": "@design-system/ds-tokens",
+  "version": "1.0.0",
+  "main": "dist/tokens.js",
+  "types": "dist/tokens.d.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
